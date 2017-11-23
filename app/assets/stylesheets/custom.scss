@@ -1,0 +1,46 @@
+html {
+	width: 800px;
+	margin: auto;
+	margin-top: 150px;
+	background-color: #F2F2F2;
+	box-sizing: border-box;
+	border: 2px solid;
+	box-shadow: 6px 6px 6px #312C29;
+	font-family: sans-serif;
+	color: #312C29;
+}
+
+.bloc .tabs {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.bloc .title {
+	background-color: #312C29;
+	height: 30px;
+	color: #F2F2F2;
+	padding-left: 12px;
+	line-height: 30px;
+	font-weight: bold;
+	position: relative;
+}
+
+.bloc .tabs a {
+	background: #928F8A;
+	display: inline-block;
+	color: white;
+	text-shadow: none;
+	text-decoration: none;
+	padding: 0 10px;
+	height: 30px;
+	vertical-align: bottom;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.bloc .tabs a:hover, .bloc .tabs a.active {
+	background-color: #312C29;
+	color: black;
+}
